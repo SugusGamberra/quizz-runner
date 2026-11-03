@@ -1,0 +1,9 @@
+# esto es xk lo subire a github y cubro las cosillas comunes del hitignore
+.env
+vendor/
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
