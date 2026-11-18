@@ -2,7 +2,8 @@
 queria comentarte que he querido hacer el readme bien estructurado para presentar el proyecto como es debido
 sin embargo veras q los comentarios del codigo (incluido este) tson informales y coloquiales
 lo he hecho asi para que veas el proceso detras con mi toque cmo persona, q veas las horas d busqueda estetica, investigar como funcionan las cosas, ensayo y error, referencias d lo q nos enseñas en clases, mi propia cosecha como persona autodidacta... espero q t guste el restultado! un abrazote!-->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code+Script&weight=400&size=55&duration=1&pause=99999&color=ff7b72&vCenter=true&width=380&lines=Quizz Runner" alt="Quizz Runner" style="vertical-align: middle;">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=55&duration=1&pause=99999&color=ff7b72&vCenter=true&width=430&lines=Quizz+Runner" alt="Quizz Runner" style="vertical-align: middle;">
 
 <br>
 
