@@ -1,10 +1,10 @@
 <?php
 //cargo el .env para sacar la direccion y la key d supabase sin exponerlas
 //(confio en ti simona <3 hahah)
-$env = parse_ini_file(__DIR__ . '/.env');
+$env = file_exists(__DIR__ . '/.env') ? parse_ini_file(__DIR__ . '/.env') : [];
 //guardo la url y la key en constantes globales para usarlas en cualquier lado
-define('SUPABASE_URL', $env['SUPABASE_URL'] ?? '');
-define('SUPABASE_KEY', $env['SUPABASE_KEY'] ?? '');
+define('SUPABASE_URL', $env['SUPABASE_URL'] ?? (getenv('SUPABASE_URL') ?: ''));
+define('SUPABASE_KEY', $env['SUPABASE_KEY'] ?? (getenv('SUPABASE_KEY') ?: ''));
 //preparo y ejecuto la llamada x http a la api rest d supabase
 function consultarSupabase($endpoint) {
     $url = SUPABASE_URL . $endpoint;
